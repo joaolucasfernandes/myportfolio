@@ -1,88 +1,102 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,100">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:300,400,500">
   <link rel="stylesheet" href="../resources/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="../resources/js/jquery-3.3.1.min.js"></script>
   <script src="../resources/js/bootstrap.min.js"></script>
   <title>João's Portfolio</title>
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <a href="#modalInfo" data-toggle="modal" data-target="#modalInfo">
-          <img class="logo rounded-image img-responsive" src="../resources/images/profile_photo.jpg" alt="A João Lucas Photo.">
-        </a>
+    <main>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#modalInfo" data-toggle="modal" data-target="#modalInfo">
+            <img class="logo rounded-image img-responsive" src="../resources/images/profile_photo.jpg" alt="A João Lucas Photo.">
+          </a>
           <div id="modalInfo" class="modal fade" tabindex="-1">
               <div class="modal-dialog">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h4 class="modal-title strong">Olá, tudo bem?</h4>
+                          <h4 class="modal-title strong">Hello there!</h4>
                       </div>
                       <div class="modal-body">
-                          <p class="text-justify">Seja bem-vindo ao meu portfolio. Aqui você vai encontrar algumas informações sobre meus projetos. E quem eu sou? Sou o João. Tenho 25 anos, sou apaixonado por tecnologia, e atualmente trabalho com teste e qualidade de software. Sou entusiasta de Agile, Devops, e tudo mais. Deseja falar comigo? Pode utilizar qualquer um dos links das minhas redes sociais no fim da página para entrar em contato. Muito obrigado pela sua visita!</p>
+                          <p class="text-justify">Welcome to my portfolio. Here you will find some information about my projects. And who am I? I'm John, 25 years old, and passionate about technology. I currently work with test and software quality. Do you want to talk to me? You can use any of the links to my social networks at the bottom of the page to get in touch. Thanks for visiting!</p>
                       </div>
                       <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
                   </div>
               </div>
           </div>
+        </div>
+        <div class="col-md-6">
+          <h1 class="text-uppercase page-title-text">João Lucas</h1>
+          <h3 class="text-uppercase page-subtitle-text">QA & Podcaster</h3>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h1 class="text-uppercase page-title-text">João Lucas</h1>
-        <h3 class="text-uppercase page-subtitle-text">QA & Podcaster</h3>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive main-banner card-img-top" src="../resources/images/testcast_banner.jpg" alt="A banner of Testcast, the greatest podcast in Brazil about Softwre Testing">
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img class="img-responsive main-banner card-img-top" src="../resources/images/testcast_banner.jpg" alt="A banner of Testcast, the greatest podcast in Brazil about Softwre Testing">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="subitens-title-text">Featured Work</h2>
+        </div>
+        <div></div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="subitens-title-text">Featured Work</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive work-image" src="../resources/images/github.png" alt="The Github logo">
+          <h3 class="text-center text-uppercase work-title-text">Github</h3>
+          <p class="text-center">
+              <button type="button" class="btn btn-basic" onclick="location.href = 'http:\\www.github.com\\joaolucasfernandes';">Check it out!</button>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive work-image" src="../resources/images/podcast.png" alt="The podcast logo">
+          <h3 class="text-center text-uppercase work-title-text">TestCast</h3>
+          <p class="text-center">
+          <button type="button" class="btn btn-basic" onclick="location.href = 'http:\\www.soundcloud.com\\testcastbrasil';">Check it out!</button>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive work-image" src="../resources/images/linkedin.png" alt="The linkedin logo">
+          <h3 class="text-center text-uppercase work-title-text">Linkedin posts</h3>
+          <p class="text-center">
+              <button type="button" class="btn btn-basic" onclick="location.href = 'http:\\www.linkedin.com\\today\\author\\joaolfc';">Check it out!</button>
+          </p>
+        </div>
       </div>
-      <div></div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img class="img-responsive work-image" src="../resources/images/github.png" alt="The Github logo">
-        <h3 class="text-center text-uppercase work-title-text">Github</h3>
-        <p class="text-center">
-          <a href="http://github.com/joaolucasfernandes">Link to project</a>
-        </p>
-        <p>Meus projetos no Github.</p>
+  </main>
+  <footer class="footer">
+     <div class="row">
+       <div class="col-md-12 text-center">
+         <p class="text">Social Networks</p>
+         <a href="https://www.facebook.com/joaolucas.fernandes.77" class="no-hyperlink-color">
+             <i class="fa fa-facebook-official footer-icon" id="facebook-icon"></i>
+           </a>
+           <a href="https://www.instagram.com/joaolucasfernandes.c" class="no-hyperlink-color">
+             <i class="fa fa-instagram footer-icon" id="instagram-icon"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/joaolfc" class="no-hyperlink-color">
+            <i class="fa fa-linkedin-square footer-icon" id="linkedin-icon"></i>
+           </a>
+       </div>
       </div>
-      <div class="col-md-4">
-        <img class="img-responsive work-image" src="../resources/images/podcast.png" alt="The podcast logo">
-        <h3 class="text-center text-uppercase work-title-text">TestCast</h3>
-        <p class="text-center">
-          <a href="http://soundcloud.com/testcastbrasil">Link to project</a>
-        </p>
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive work-image" src="../resources/images/linkedin.png" alt="The linkedin logo">
-        <h3 class="text-center text-uppercase work-title-text">Linkedin posts</h3>
-        <p class="text-center">
-          <a href="https://www.linkedin.com/today/author/joaolfc">Link to project</a>
-        </p>
-      </div>
-    </div>
-    <footer>
-      <center>THIS IS A STUPID FOOTER</center>
     </footer>
   </div>
 </body>
-
 </html>
