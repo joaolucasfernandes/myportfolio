@@ -7,11 +7,11 @@
         margin: auto;
     }
 
-    .page-title-text{
+    .page-title-text {
         text-align: center;
     }
 
-    .page-subtitle-text{
+    .page-subtitle-text {
         text-align: center;
     }
 }
@@ -21,7 +21,7 @@
         text-align: right;
     }
 
-    .page-subtitle-text{
+    .page-subtitle-text {
         text-align: right;
     }
 }
@@ -79,7 +79,7 @@
     margin-bottom: 1%;
 }
 
-.no-hyperlink-color{
+.no-hyperlink-color {
     color: inherit;
 }
 
